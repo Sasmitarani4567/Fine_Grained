@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/touchTouch.css">
+	<link rel="stylesheet" href="css/camera.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src='js/camera.js'></script>
+	<script src="js/touchTouch.jquery.js"></script>
+	<script src="js/jquery.stellar.js"></script>
+	<script src="js/script.js"></script>
+	<script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+        <style>
+            
+            body {
+  //background: #f6f6f7;
+  font: 14px/24px Georgia, 'Times New Roman', Times, serif;
+    background: url(images/user.jpg) no-repeat;
+    background-size: 100% 100%;
+    
+}
+        </style>
+	</head>
+<body>
+<!--==============================header=================================-->
+<header id="header">
+	
+		<div class="container">
+			<div class="row">
+                     <h1 style="font-size: 30px;color:whitesmoke; font-family: Times New Roman, Times, serif" >Secure and Effective File Sharing with two factor Authentication</h1>
+
+					<nav>
+						<ul class="sf-menu">
+							<li class="current"><a href="index.html">Home</a>
+										
+							</li>
+							<li><a href="">User</a>
+                                                          <ul>
+											<li><a href="user_login.jsp">Login</a></li>
+											<li><a href="register.jsp">Register</a></li>
+											
+                                                          </ul>
+                                                        </li>
+                                                      
+							<li><a href="trustee_login.jsp">Trustee</a></li>
+							<li><a href="authority_login.jsp">Authority</a></li>
+							<li><a href="cloud_login.jsp">Cloud</a>
+                                                        
+								</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+	
+	
+</header>
+<header id="header1">
+	
+		<div class="container">
+			<div class="row">
+                            <p style="color:whitesmoke;font-size: 20px;line-height: 40px;text-align: justify">	In this Project, we introduce a new Secure and Effective File Sharing with two factor Authentication for web-based cloud computing services. In our proposed system we are implementing two factor authentication such as both secret key and trustee acceptance certificate As a user cannot access the system if they do not hold both, the mechanism can enhance the safety of the system, especially in those re scenarios where many users share an equivalent computer for web-based cloud services. Here we are adding cloud to upload the encrypted files for security, i.e., the cloud server only knows that the user fulfills the required predicate, but has no idea on the exact identity of the user. Finally, we also perform a simulation to demonstrate the practicability of our proposed 2FA system.
+</p>
+                            	</div>
+			</div>
+	
+	
+</header>
+
+</body>
+</html>
